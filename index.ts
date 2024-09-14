@@ -13,3 +13,5 @@ function loadEvents(): void {
         client.on(event.name, (...arg) => event.execute(...arg));
     }
 }
+
+init();
